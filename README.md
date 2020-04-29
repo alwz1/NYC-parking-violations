@@ -14,6 +14,12 @@ Python 3.6 with Spark
 
 ### Project Motivation<a name="project_motivation"></a>
 
+- What are the top four violation categories?
+- Which license types have the most violations?
+- Which departments issue the most violations? 
+- What are the yearly payment amounts? 
+- Predict top four violation categories
+
 ### File Descriptions<a name="file_descriptions"></a>
 
 
