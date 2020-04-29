@@ -21,9 +21,10 @@ Python 3.6 with Spark
 - Predict top four violation categories
 
 ### File Descriptions<a name="file_descriptions"></a>
-
-
-LICENSE.txt: MIT License
+- NYC_Parking_Violations_IBM_Capstone_1.ipynb
+- NYC_Parking_Violations_IBM_Capstone_2.ipynb
+- NYC_Parking_Violations_IBM_Capstone_3.ipynb
+- LICENSE.txt: MIT License
 
 ### Results<a name="results"></a>
 ### Licensing, Authors, Acknowledgements<a name="licensing"></a>
