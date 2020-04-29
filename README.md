@@ -40,7 +40,7 @@ In data preparation stage, the identification features such as 'Summons Number' 
 The sampled data has 96957 rows and 13 columns. String columns such as 'State' and 'License_Type' are transformed using StringIndexer. 
 
 
-A four-layer neural networks with 16 units each in the hidden layers
+A four-layer neural networks model with 16 units each in the hidden layers was used for predicting the top four violation categories. 
 
 
 ### Licensing, Authors, Acknowledgements<a name="licensing"></a>
