@@ -27,6 +27,14 @@ Python 3.6 with Spark
 - LICENSE.txt: MIT License
 
 ### Results<a name="results"></a>
+The top four violation categories are 'NO PARKING-STREET CLEANING', 'PHTO SCHOOL ZN SPEED VIOLATION', 
+'FAIL TO DSPLY MUNI METER RECPT', and 'NO STANDING-DAY/TIME LIMITS'.
+
+The license types for the most violations are 'PAS', 'COM', 'OMT', 'OMS', and 'SRF', which stand for passenger, commercial, taxi, and special ominibus rentals.
+
+The departments that issue the most violations are Traffic, Department of Transportation, Police Department, and Department of Sanitation. 
+
+
 ### Licensing, Authors, Acknowledgements<a name="licensing"></a>
 MIT License
 
