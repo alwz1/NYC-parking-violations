@@ -47,6 +47,9 @@ The data was then normalized using MinMaxScaler, we found that the accuracy of t
 ### Licensing, Authors, Acknowledgements<a name="licensing"></a>
 MIT License
 
+https://www.ibm.com/watson
+
+https://data.cityofnewyork.us/City-Government/Open-Parking-and-Camera-Violations/nc67-uf89
 
 
 
