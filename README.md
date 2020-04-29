@@ -1,4 +1,4 @@
-# NYC-parking-violations
+# NYC Parking Violations
 ### Table of Contents
 1. [Installations](#installations)
 2. [Project Motivation](#project_motivation)
