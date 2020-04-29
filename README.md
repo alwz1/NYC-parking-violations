@@ -40,7 +40,8 @@ In data preparation stage, the identification features such as 'Summons Number' 
 The sampled data has 96957 rows and 13 columns. String columns such as 'State' and 'License_Type' are transformed using StringIndexer. 
 
 
-A four-layer neural networks model with 16 units each in the hidden layers was used for predicting the top four violation categories. 
+A four-layer neural networks model with 16 units each in the hidden layers was used for predicting the top four violation categories. To see the effect of data normalization, the model was first trained and evaluated without data normalization. The model did not perform well without data normalization. 
+The data was then normalized using MinMaxScaler, we found that the accuracy of the model was 0.97. F1 scores for the first and third categories are 0.96 and 0.93 respectively, and the model predicted accurately for second and fourth categories. The data preparation stage will be revisited to prevent issues such as data leakage. Decision tree and random forest models were also developed and evaluated, and we found that these models gave similar results as the neural networks model. 
 
 
 ### Licensing, Authors, Acknowledgements<a name="licensing"></a>
