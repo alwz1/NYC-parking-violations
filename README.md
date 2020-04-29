@@ -34,6 +34,8 @@ The license types for the most violations are 'PAS', 'COM', 'OMT', 'OMS', and 'S
 
 The departments that issue the most violations are Traffic, Department of Transportation, Police Department, and Department of Sanitation. 
 
+Thre is a large increase in yearly payment amount from about 36 million dollars in 2015 to 516 million dollars in 2016. The peak payment amount of 733 million dollars occured in 2018. 
+
 
 ### Licensing, Authors, Acknowledgements<a name="licensing"></a>
 MIT License
