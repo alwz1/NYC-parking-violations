@@ -36,7 +36,11 @@ The departments that issue the most violations are Traffic, Department of Transp
 
 Thre is a large increase in yearly payment amount from about 36 million dollars in 2015 to 516 million dollars in 2016. The peak payment amount of 733 million dollars occured in 2018. 
 
-In data preparation stage, the identification features such as 'Summons Number' are dropped. Features with more than 70% missing values such as Judgment Entry Date and Violation Status are also dropped. 'Interest_Amount' is also dropped because it is highly correlated with 'Amount_Due'. The dataset is filtered to include top twelve states, top four violation categories, top ten counties, top ten license types, and top five issuing agencies. 0.5% of this filtered data is sampled for further processing. String columns such as 'State' and 'License_Type' are transformed using StringIndexer. 
+In data preparation stage, the identification features such as 'Summons Number' are dropped. Features with more than 70% missing values such as Judgment Entry Date and Violation Status are also dropped. 'Interest_Amount' is also dropped because it is highly correlated with 'Amount_Due'. The dataset is filtered to include top twelve states, top four violation categories, top ten counties, top ten license types, and top five issuing agencies. 0.5% of this filtered data is sampled for further processing.
+The sampled data has 96957 rows and 13 columns. 
+
+A four-layer neural networks with 16 units each in the hidden layers
+String columns such as 'State' and 'License_Type' are transformed using StringIndexer. 
 
 
 ### Licensing, Authors, Acknowledgements<a name="licensing"></a>
