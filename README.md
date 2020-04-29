@@ -7,6 +7,9 @@
 5. [Licensing, Authors, Acknowledgements](#licensing)
 
 ### Installations<a name="installations"></a>
+IBM Watson Studio
+
+Python 3.6 with Spark
 
 ### Project Motivation<a name="project_motivation"></a>
 
