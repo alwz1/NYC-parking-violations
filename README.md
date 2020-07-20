@@ -1,5 +1,5 @@
 # NYC Parking Violations
-The use case for the project is to predict the top four violation categories. The dataset "Open Parking and Camera Violations" is downloaded from NYC Open Data. The dataset is provided by the Department of Finance (DOF). It contains more than 47 million records and 19 columns. The notebooks contain exploratory data analysis, data preparation, modeling and evaluation. Decision tree, random forest, and neural networks models were developed and evaluated. 
+The use case for the project is to predict the top four violation categories. The dataset "Open Parking and Camera Violations" is downloaded from NYC Open Data. The dataset is provided by the Department of Finance (DOF). It contains more than 47 million records and 19 columns. 
 ### Table of Contents
 1. [Installations](#installations)
 2. [Project Motivation](#project_motivation)
