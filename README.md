@@ -36,12 +36,10 @@ The departments that issue the most violations are Traffic, Department of Transp
 
 Thre is a large increase in yearly payment amount from about 36 million dollars in 2015 to 516 million dollars in 2016. The peak payment amount of 733 million dollars occured in 2018. 
 
-In data preparation stage, the identification features such as 'Summons Number' are dropped. Features with more than 70% missing values such as Judgment Entry Date and Violation Status are also dropped. 'Interest_Amount' is also dropped because it is highly correlated with 'Amount_Due'. The dataset is filtered to include top twelve states, top four violation categories, top ten counties, top ten license types, and top five issuing agencies. 0.5% of this filtered data is sampled for further processing.
-The sampled data has 96957 rows and 13 columns. String columns such as 'State' and 'License_Type' are transformed using StringIndexer. 
+In data preparation stage, the identification features such as 'Summons Number' are dropped. Features with more than 70% missing values such as Judgment Entry Date and Violation Status are also dropped. 'Interest_Amount' is also dropped because it is highly correlated with 'Amount_Due'. The dataset is filtered to include top twelve states, top four violation categories, top ten counties, top ten license types, and top five issuing agencies. 5% of this filtered data is sampled for further processing.
 
-
-A four-layer neural networks model with 16 units each in the hidden layers was used for predicting the top four violation categories. To see the effect of data normalization, the model was first trained and evaluated without data normalization. The model did not perform well without data normalization. 
-The data was then normalized using MinMaxScaler, we found that the accuracy of the model was 0.97. F1 scores for the first and third categories are 0.96 and 0.93 respectively, and the model predicted accurately for second and fourth categories. The data preparation stage will be revisited to prevent issues such as data leakage. Decision tree and random forest models were also developed and evaluated, and we found that these models gave similar results as the neural networks model. 
+A four-layer neural networks model with 16 units each in the hidden layers was used for predicting the top four violation categories. 
+The data normalized using MinMaxScaler, we found that the accuracy of the model was 0.97. F1 scores for the first and third categories are 0.96 and 0.94 respectively, and the model predicted accurately for second and fourth categories. Decision tree and random forest models were also developed and evaluated, and we found that these models gave similar results as the neural networks model. 
 
 
 ### Licensing, Authors, Acknowledgements<a name="licensing"></a>
