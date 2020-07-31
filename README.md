@@ -39,7 +39,7 @@ Thre is a large increase in yearly payment amount from about 36 million dollars 
 In data preparation stage, the identification features such as 'Summons Number' are dropped. Features with more than 70% missing values such as Judgment Entry Date and Violation Status are also dropped. 'Interest_Amount' is also dropped because it is highly correlated with 'Amount_Due'. The dataset is filtered to include top twelve states, top four violation categories, top ten counties, top ten license types, and top five issuing agencies; 5% of this filtered data is sampled for further processing.
 
 A four-layer neural networks model with 16 units each in the hidden layers was used for predicting the top four violation categories. 
-The data normalized using MinMaxScaler, we found that the accuracy of the model was 0.97. F1 scores for the first and third categories are 0.96 and 0.94 respectively, and the model predicted accurately for second and fourth categories. Decision tree and random forest models were also developed and evaluated, and we found that these models gave similar results as the neural networks model. 
+The data was normalized using MinMaxScaler. We found that the accuracy of the model was 0.97. F1 scores for the first and third categories are 0.96 and 0.94 respectively, and the model predicted accurately for second and fourth categories. Decision tree and random forest models were also developed and evaluated, and we found that these models gave similar results as the neural networks model. 
 
 
 ### Licensing, Authors, Acknowledgements<a name="licensing"></a>
